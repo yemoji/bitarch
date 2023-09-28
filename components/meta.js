@@ -14,9 +14,9 @@ const Meta = ({ title, keywords, description }) => {
 };
 
 Meta.defaultProps = {
-  title: "Driver Company",
-  keywords: "Driver taxi, Germany",
-  description: "Get the latest news in web dev",
+  title: "بیتا | طراحی بی همتا",
+  keywords: "معماری و طراحی",
+  description: "معماری و طراحی",
 };
 
 export default Meta;
