@@ -8,7 +8,7 @@ import {
   FaWhatsapp,
 } from "react-icons/fa";
 import Image from "next/image";
-import Logo from "../public/logo.png";
+// import Logo from "../public/logo.png";
 const navbar = () => {
   return (
     <div>
@@ -39,7 +39,7 @@ const navbar = () => {
         <div className="container flex flex-wrap justify-between items-center mx-auto">
           <Link href="/">
             <a href="#" className="flex">
-              <Image width="200px" height="50px" objectFit="contain" src={Logo} alt="Logo" />
+              <Image width="200px" height="50px" objectFit="contain" src="/logo.png" alt="Logo" />
             </a>
           </Link>
           <div className="flex md:order-2">

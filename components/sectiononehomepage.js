@@ -1,19 +1,19 @@
 import { FaHashtag } from "react-icons/fa";
 import Image from "next/image";
-import Image1 from "./pics/5.jpg";
-import Image2 from "./pics/6.jpg";
-import Image3 from "./pics/7.jpg";
-import Image4 from "./pics/8.jpg";
-import Image5 from "./pics/9.jpg";
+// import Image1 from "./pics/5.jpg";
+// import Image2 from "./pics/6.jpg";
+// import Image3 from "./pics/7.jpg";
+// import Image4 from "./pics/8.jpg";
+// import Image5 from "./pics/9.jpg";
 const Contents = () => {
   return (
     <div className="container mx-auto py-24  space-y-20 w-full">
       <div className=" lg:flex lg:flex-row justify-center px-12">
         <div>
-          <Image src={Image1} alt="Picture of the author" />
+          <Image width="471px" height="313px"  src="/5.jpg" alt="Picture of the author" />
         </div>
         <div className="mt-12">
-          <Image src={Image2} alt="Picture of the author" />
+          <Image width="471px" height="313px"  src="/6.jpg" alt="Picture of the author" />
         </div>
       </div>
       <div className="px-12 flex flex-col justify-center items-center text-center space-y-6">
@@ -40,13 +40,13 @@ const Contents = () => {
         </div>
         <div className="grid grid-cols-2 grid-rows-2 gap-2">
           <div className="col-span-1 row-span-2">
-            <Image src={Image3} alt="Picture of the author" />
+            <Image width="326px" objectFit="contain" height="360px" src="/7.jpg" alt="Picture of the author" />
           </div>
           <div className="col-span-1 row-span-1">
-            <Image src={Image4} alt="Picture of the author" />
+            <Image width="356px" height="165px" src="/8.jpg" alt="Picture of the author" />
           </div>
           <div className="col-span-1 row-span-1">
-            <Image src={Image5} alt="Picture of the author" />
+            <Image width="356px" height="165px" src="/9.jpg" alt="Picture of the author" />
           </div>
         </div>
       </div>

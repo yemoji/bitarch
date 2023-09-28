@@ -13,7 +13,7 @@ import {
   FaWhatsapp,
 } from "react-icons/fa";
 import Image from "next/image";
-import Logo from "../public/logo.png";
+// import Logo from "../public/logo.png";
 const footer = () => {
   return (
     <div>
