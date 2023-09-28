@@ -1,13 +1,13 @@
 import Image from "next/image";
-import Image1 from "../public/image_01-6.jpg";
-import Image2 from "../public/image_06.jpg";
-import Image3 from "../public/image_07.jpg";
+// import Image1 from "../public/image_01-6.jpg";
+// import Image2 from "../public/image_06.jpg";
+// import Image3 from "../public/image_07.jpg";
 import { FaCheck, FaMale, FaGlobe } from "react-icons/fa";
 const AboutUs = () => {
   return (
     <div>
       {/* Content */}
-      <div>
+      {/* <div>
         <div
           className="bg-no-repeat bg-cover bg-center  h-72"
           style={{
@@ -149,7 +149,7 @@ const AboutUs = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       {/* End of Content */}
     </div>
   );

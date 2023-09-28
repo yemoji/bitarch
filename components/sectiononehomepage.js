@@ -1,10 +1,10 @@
 import { FaHashtag } from "react-icons/fa";
 import Image from "next/image";
-import Image1 from "../public/5.jpg";
-import Image2 from "../public/6.jpg";
-import Image3 from "../public/7.jpg";
-import Image4 from "../public/8.jpg";
-import Image5 from "../public/9.jpg";
+import Image1 from "/pics/5.jpg";
+import Image2 from "/pics/6.jpg";
+import Image3 from "/pics/7.jpg";
+import Image4 from "/pics/8.jpg";
+import Image5 from "/pics/9.jpg";
 const Contents = () => {
   return (
     <div className="container mx-auto py-24  space-y-20 w-full">
