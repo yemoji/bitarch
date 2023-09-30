@@ -8,8 +8,10 @@ import {
   FaWhatsapp,
 } from "react-icons/fa";
 import Image from "next/image";
+import { useState } from "react";
 // import Logo from "../public/logo.png";
 const navbar = () => {
+  const [navbar, setNavbar] = useState(false)
   return (
     <div>
       {/* <div className="bg-gray-100 ">
@@ -43,13 +45,14 @@ const navbar = () => {
             </a>
           </Link>
           <div className="flex md:order-2">
-            <button
+            {/* <button
               type="button"
               className="text-gray-700 hover:text-white hover:bg-yellow-600 border-2 border-yellow-500   rounded-3xl  px-5 py-2.5 text-center mr-3 md:mr-0 "
             >
               GET A QUOTE
-            </button>
+            </button> */}
             <button
+              onClick={() => setNavbar(!navbar)}
               data-collapse-toggle="mobile-menu-4"
               type="button"
               className="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
@@ -85,6 +88,54 @@ const navbar = () => {
           </div>
           <div
             className="hidden justify-between items-center w-full md:flex md:w-auto md:order-1"
+            id="mobile-menu-4"
+          >
+            <ul className="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0  ">
+              <li>
+                <Link href="/">
+                  <a
+                    href="#"
+                    className="block py-2 pr-4 pl-3 text-yellow-600  md:hover:text-yellow-500 md:p-0 "
+                    aria-current="page"
+                  >
+                    HOME
+                  </a>
+                </Link>
+              </li>
+              <li>
+                <Link href="/aboutus">
+                  <a
+                    href="#"
+                    className="block py-2 pr-4 pl-3 text-gray-500   md:hover:text-yellow-500 md:p-0 "
+                  >
+                    ABOUT
+                  </a>
+                </Link>
+              </li>
+              <li>
+                <Link href="/services">
+                  <a
+                    href="#"
+                    className="block py-2 pr-4 pl-3 text-gray-500   md:hover:text-yellow-500 md:p-0 "
+                  >
+                    SERVICES
+                  </a>
+                </Link>
+              </li>
+              <li>
+                <Link href="/contact">
+                  <a
+                    href="#"
+                    className="block py-2 pr-4 pl-3 text-gray-500  md:hover:text-yellow-500 md:p-0 "
+                  >
+                    CONTACT
+                  </a>
+                </Link>
+              </li>
+            </ul>
+          </div>
+          <div
+            className={`${navbar ? "hidden" : "flex"} justify-between items-center w-full md:hidden md:w-auto md:order-1`}
             id="mobile-menu-4"
           >
             <ul className="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0  ">

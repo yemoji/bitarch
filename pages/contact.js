@@ -14,41 +14,41 @@ const Contact = () => {
         <div className="lg:grid lg:grid-cols-2">
           <div className="col-span-1 p-24 flex flex-col space-y-8">
             <p className="text-2xl text-gray-600">
-              AutoRide <br />
-              Transportation Services
+              بیتا <br />
+              طراحی معماری
             </p>
             <p className="text-xl font-light text-gray-500">
-              2507 Parker Boulevard
-              <br /> Oakland, CA 76107
+            تهران
+            <br />
+             خیابان ولنجک ساختمان هوما
             </p>
             <p className="text-xl font-light text-gray-500">
-              Phone: (620) 255 7005 <br />
-              Toll Free: (825) 840 0440
+              Phone: +982126805504 <br />
             </p>
-            <p className="text-xl font-light text-gray-500">
+            {/* <p className="text-xl font-light text-gray-500">
               Email: info@autoride.com
-            </p>
+            </p> */}
           </div>
           <div className="col-span-1 bg-gray-100 p-24 flex flex-col space-y-8">
-            <p className="text-2xl text-gray-600">Chairman of the Board</p>
+            <p className="text-2xl text-gray-600">مدیر دپارتمان طراحی</p>
             <p className="text-xl font-light text-gray-500">
-              Mark Peter
-              <br /> Phone: (620) 252 8021, Fax: (620) 252 8022 <br />
-              Email: mark.peter@autoride.com
+              بیتا زارع
+              <br /> Phone: +989120130533<br />
+              Email: bita.zare.architect@gmail.com
             </p>
-            <p className="text-2xl text-gray-600">Director of Development</p>
+            {/* <p className="text-2xl text-gray-600">Director of Development</p>
             <p className="text-xl font-light text-gray-500">
               John Green
               <br /> Phone: (620) 252 8021, Fax: (620) 252 8022 <br />
               Email: mark.peter@autoride.com
-            </p>
+            </p> */}
           </div>
         </div>
         <div className="flex flex-col items-center justify-center  space-y-4 py-24">
-          <p className="text-3xl text-center font-light text-gray-600">
+          {/* <p className="text-3xl text-center font-light text-gray-600">
             Private chauffeur, sightseeing tour? <br />
             Please fill out the form below with questions or comments
-          </p>
+          </p> */}
           <div className=" container mx-auto px-16 lg:grid  lg:grid-cols-2 lg:grid-rows-3   w-full">
             <div className="col-span-1 row-span-1  p-4 px-8 border">
               <label htmlFor="email" className="block mb-2  text-gray-900 ">
@@ -102,7 +102,7 @@ const Contact = () => {
             type="button"
             className=" text-white  bg-amber-600 hover:bg-amber-800   rounded-3xl  px-8 py-3 text-center mr-2 mb-2 "
           >
-            CONTACT US
+            تماس با ما
           </button>
         </div>
       </div>
