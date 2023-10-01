@@ -12,18 +12,43 @@ const header = () => {
   return (
     <div className=" h-screen w-full">
       <Swiper
+        className="rounded-sm border-4 border-amber-800"
         navigation={true}
         autoplay={{
           delay: 2500,
           disableOnInteraction: false,
         }}
-        modules={[Autoplay, Navigation]}
+        modules={[ Navigation]}
       >
         <SwiperSlide>
           <div
             className="h-screen bg-no-repeat bg-cover bg-center"
             style={{
               backgroundImage: `url(/1.jpg)`,
+            }}
+          >
+            {/* <div className="h-screen bg-black bg-opacity-10 ">
+              <div className="h-screen flex flex-col justify-center items-center space-y-6">
+                <p className="text-7xl text-white ">Craftsmanship Excellence</p>
+                <p className="text-2xl font-light text-white ">
+                  Explore Our Visionary Designs
+                </p>
+                <button
+                  type="button"
+                  className="text-white  bg-amber-600 hover:bg-amber-800   rounded-3xl  px-8 py-3 text-center mr-2 mb-2 "
+                >
+                  CONTACT US
+                </button>
+              </div>
+            </div> */}
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div
+            className="h-screen bg-no-repeat bg-cover bg-center"
+            style={{
+              backgroundImage: `url(/logo.png)`,
+              backgroundSize: "contain"
             }}
           >
             {/* <div className="h-screen bg-black bg-opacity-10 ">
