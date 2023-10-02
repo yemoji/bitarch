@@ -10,7 +10,7 @@ import {
 import Image from "next/image";
 import { useState } from "react";
 // import Logo from "../public/logo.png";
-const navbar = () => {
+const Navbar = () => {
   const [navbar, setNavbar] = useState(false)
   return (
     <div>
@@ -187,4 +187,4 @@ const navbar = () => {
     </div>
   );
 };
-export default navbar;
+export default Navbar;
