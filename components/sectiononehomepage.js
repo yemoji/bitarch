@@ -29,8 +29,8 @@ const Contents = () => {
           درباره‌ی گروه طراحی معماری بیتارک
           </p>
           <p className="text-xl font-light text-gray-500">
-          بیتا زارع، فارغ التحصیل فوق لیسانس معماری از دانشکده معماری دانشگاه شهید بهشتی، در سال 1393 گروه معماری کارند را تاسیس کرد. حاصل این دوره فعالیت، طراحی پروژه های معماری با کاربری‌های مختلف در مقیاسهای کوچک و بزرگ و کسب جوایز متعدد داخلی و خارجی بوده است. این گروه امیدوار است از طریق مطالعه و بررسی معماری گذشته ایران و تاکید بر معماری زمین مدار و مرتبط با مکان، به بیانی معاصر برای معماری خود دست یابد.
-          </p>
+          بیتا زارع، در سال 1393 گروه معماری بیتارک را تاسیس کرد. حاصل این دوره فعالیت، طراحی پروژه های معماری با کاربری‌های مختلف در مقیاسهای کوچک و بزرگ بوده است. این گروه امیدوار است از طریق مطالعه و بررسی معماری گذشته ایران و تاکید بر معماری زمین مدار و مرتبط با مکان، به بیانی معاصر برای معماری خود دست یابد.
+            </p>
           <button
             type="button"
             className="text-white  bg-amber-600 hover:bg-amber-800   rounded-3xl  px-8 py-3 text-center mr-2 mb-2 "
@@ -43,10 +43,10 @@ const Contents = () => {
             <Image width="326px" objectFit="contain" height="360px" src="/7.jpg" alt="Picture of the author" />
           </div>
           <div className="col-span-1 row-span-1">
-            <Image width="356px" height="165px" src="/8.jpg" alt="Picture of the author" />
+            <Image width="356px" height="165px" objectFit="cover" src="/16.jpg" alt="Picture of the author" />
           </div>
           <div className="col-span-1 row-span-1">
-            <Image width="356px" height="165px" src="/9.jpg" alt="Picture of the author" />
+            <Image width="356px" objectFit="cover" height="165px" src="/15.jpg" alt="Picture of the author" />
           </div>
         </div>
       </div>
