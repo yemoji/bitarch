@@ -135,7 +135,7 @@ const Navbar = () => {
             </ul>
           </div>
           <div
-            className={`${navbar ? "hidden" : "flex"} justify-between items-center w-full md:hidden md:w-auto md:order-1`}
+            className={`${navbar ? "flex" : "hidden"} justify-between items-center w-full md:hidden md:w-auto md:order-1`}
             id="mobile-menu-4"
           >
             <ul className="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0  ">
