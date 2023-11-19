@@ -39,13 +39,13 @@ const Contents = () => {
           </button>
         </div>
         <div className="grid grid-cols-2 grid-rows-2 gap-2">
-          <div className="col-span-1 row-span-2"  style={{ border: '3px solid rgb(217, 119, 6)',position: 'relative', width: '326px', height: '339px' }}>
+          <div className="col-span-1 row-span-2"  style={{ border: '3px solid rgb(217, 119, 6)',position: 'relative', width: '40vw', height: '339px' }}>
             <Image layout='fill' objectFit='cover' src="/7.jpg" alt="Picture of the author" />
           </div>
-          <div className="col-span-1 row-span-1"  style={{ border: '3px solid rgb(217, 119, 6)',position: 'relative', width: '356px', height: '165px' }}>
+          <div className="col-span-1 row-span-1"  style={{ border: '3px solid rgb(217, 119, 6)',position: 'relative', width: '40vw', height: '165px' }}>
             <Image layout='fill' objectFit='cover' src="/16.jpg" alt="Picture of the author" />
           </div>
-          <div className="col-span-1 row-span-1"  style={{ border: '3px solid rgb(217, 119, 6)',position: 'relative', width: '356px', height: '165px' }}>
+          <div className="col-span-1 row-span-1"  style={{ border: '3px solid rgb(217, 119, 6)',position: 'relative', width: '40vw', height: '165px' }}>
             <Image layout='fill' objectFit='cover' src="/15.jpg" alt="Picture of the author" />
           </div>
         </div>
