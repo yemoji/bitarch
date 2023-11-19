@@ -22,28 +22,28 @@ const footer = () => {
           <div className="grid lg:grid-cols-3 gap-20">
             <div className="col-span-1 flex flex-row space-x-3">
               <FaMapMarkedAlt className="w-12 h-12 text-amber-600  p-1" />
-              <div className="space-y-2">
+              <div className="space-y-2 pr-2">
                 <p className="text-gray-500">آدرس</p>
                 <p className="text-gray-600 font-medium">
-                  تهران ولنجک، خیابان ولنجک ساختمان هوما
+                  تهران ولنجک، خیابان ولنجک، ساختمان هوما
                 </p>
               </div>
             </div>
             <div className="col-span-1 flex flex-row space-x-3">
               <FaPhoneAlt className="w-12 h-12 text-amber-600  p-1" />
-              <div className="space-y-2">
+              <div className="space-y-2 pr-2 pr-2">
                 <p className="text-gray-500">شماره تماس</p>
                 <p className="text-gray-600 font-medium">
-                  +982126805093 - +982126805504
+                <a href="tel:+982126805093">۰۲۱-۲۶۸۰۵۰۹۳</a> - <a href="tel:+982126805504">۰۲۱-۲۶۸۰۵۵۰۴</a>
                 </p>
               </div>
             </div>
             <div className="col-span-1 flex flex-row space-x-3">
               <FaRegClock className="w-12 h-12 text-amber-600  p-1" />
-              <div className="space-y-2">
+              <div className="space-y-2 pr-2">
                 <p className="text-gray-500">ساعات کاری</p>
                 <p className="text-gray-600 font-medium">
-                  شنبه تا ۵شنبه - ۹:۰۰ تا ۱۸:۰۰
+                  شنبه تا پنج‌شنبه - از ساعت ۹:۰۰ الی ۱۶:۰۰
                 </p>
               </div>
             </div>
@@ -88,19 +88,19 @@ const footer = () => {
             </div>
             <div className="col-span-1 space-y-8">
               <div className="flex flex-col space-y-2">
-                <p className="text-gray-600 font-medium">بیتارک</p>
+                <p className="text-gray-600 font-medium">بیتا آرک</p>
                 <p className="border-solid border border-amber-500  w-1/4 "></p>
               </div>
               <div className="flex flex-col space-y-4">
                 <div className="flex flex-row items-center space-x-4">
                   <FaMapMarkerAlt className="w-6 h-6 text-gray-500  font-light" />
-                  <p className="text-gray-500">
-                  تهران ولنجک، خیابان ولنجک ساختمان هوما
+                  <p className="text-gray-500 pr-2">
+                  تهران ولنجک، خیابان ولنجک، ساختمان هوما
                   </p>
                 </div>
                 <div className="flex flex-row items-center space-x-4">
                   <FaPhone className="w-6 h-6 text-gray-500 " />
-                  <p className="text-gray-500">+982126805093</p>
+                  <p className="text-gray-500 pr-2"><a href="tel:+982126805093">۰۲۱-۲۶۸۰۵۰۹۳</a></p>
                 </div>
                 {/* <div className="flex flex-row items-center space-x-4">
                   <FaPhoneSquareAlt className="w-6 h-6 text-gray-500 " />
@@ -112,7 +112,7 @@ const footer = () => {
                 </div> */}
                 <div className="flex flex-row items-center space-x-4">
                   <FaCalendarWeek className="w-6 h-6 text-gray-500 " />
-                  <p className="text-gray-500">شنبه تا ۵شنبه - ۹:۰۰ تا ۱۸:۰۰</p>
+                  <p className="text-gray-500 pr-2">شنبه تا پنج‌شنبه - از ساعت ۹:۰۰ الی ۱۶:۰۰</p>
                 </div>
               </div>
             </div>

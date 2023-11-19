@@ -23,7 +23,7 @@ const Contact = () => {
              خیابان ولنجک ساختمان هوما
             </p>
             <p className="text-xl font-light text-gray-500">
-              Phone: +982126805504 <br />
+              شماره تماس: <a href="tel:+982126805504" dir="rtl">۰۲۱-۲۶۸۰۵۵۰۴</a> <br />
             </p>
             {/* <p className="text-xl font-light text-gray-500">
               Email: info@autoride.com

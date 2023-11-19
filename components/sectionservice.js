@@ -8,7 +8,7 @@ const Service = () => {
         <FaEnvira className="w-16 h-16 text-amber-600 bg-gray-100 rounded-full p-1" />
         <p className="text-2xl font-medium text-gray-600">معماری خیره‌کننده</p>
         <p className="text-gray-600">
-        بیتارک، جایی که نوآوری با زیبایی همراه می‌شود. طراحی‌های ما فضاها را بازتعریف می‌کنند و محیط‌هایی جذاب ایجاد می‌کنند که الهام بخش هستند.
+        بیتا آرک، جایی که نوآوری با زیبایی همراه می‌شود. طراحی‌های ما فضاها را بازتعریف می‌کنند و محیط‌هایی جذاب ایجاد می‌کنند که الهام بخش هستند.
         </p>
       </div>
       <div className="col-span-2 flex flex-col space-y-4 items-center justify-center text-center">
