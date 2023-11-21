@@ -10,9 +10,9 @@ import "swiper/css/navigation";
 import { Autoplay, Navigation } from "swiper";
 const header = () => {
   return (
-    <div className=" h-screen w-full">
+    <div className="h-screen w-full">
       <Swiper
-        className="rounded-sm border-4 border-amber-800"
+        className="rounded-sm border-y-4 border-amber-800"
         navigation={true}
         autoplay={{
           delay: 2500,

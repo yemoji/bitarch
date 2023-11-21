@@ -37,14 +37,16 @@ const Navbar = () => {
           </div>
         </div>
       </div> */}
-      <nav className=" px-2 sm:px-4 py-5 ">
+      <nav className="px-2 sm:px-4 py-5 ">
         <div className="container flex flex-wrap justify-between items-center mx-auto">
+          <div className="mt-2 mx-5">
           <Link href="/">
             <a href="#" className="flex">
-              <Image width="200px" height="50px" objectFit="contain" src="/logo.png" alt="Logo" />
+              <Image width="50px" height="50px" objectFit="contain" src="/logo.png" alt="Logo" />
             </a>
           </Link>
-          <div className="flex md:order-2">
+          </div>
+          <div className="mx-5 flex md:order-2">
             {/* <button
               type="button"
               className="text-gray-700 hover:text-white hover:bg-yellow-600 border-2 border-yellow-500   rounded-3xl  px-5 py-2.5 text-center mr-3 md:mr-0 "
@@ -95,20 +97,10 @@ const Navbar = () => {
                 <Link href="/">
                   <a
                     href="#"
-                    className="block py-2 pr-4 pl-3 text-yellow-600  md:hover:text-yellow-500 md:p-0 "
+                    className="block py-2 pr-4 pl-3 text-yellow-600  md:hover:text-yellow-500"
                     aria-current="page"
                   >
-                    HOME
-                  </a>
-                </Link>
-              </li>
-              <li>
-                <Link href="/aboutus">
-                  <a
-                    href="#"
-                    className="block py-2 pr-4 pl-3 text-gray-500   md:hover:text-yellow-500 md:p-0 "
-                  >
-                    ABOUT
+                    صفحه اصلی
                   </a>
                 </Link>
               </li>
@@ -116,9 +108,19 @@ const Navbar = () => {
                 <Link href="/services">
                   <a
                     href="#"
-                    className="block py-2 pr-4 pl-3 text-gray-500   md:hover:text-yellow-500 md:p-0 "
+                    className="block py-2 pr-4 pl-3 text-gray-500   md:hover:text-yellow-500"
                   >
-                    SERVICES
+                    نمونه کارها
+                  </a>
+                </Link>
+              </li>
+              <li>
+                <Link href="/aboutus">
+                  <a
+                    href="#"
+                    className="block py-2 pr-4 pl-3 text-gray-500   md:hover:text-yellow-500"
+                  >
+                    درباره ما
                   </a>
                 </Link>
               </li>
@@ -126,9 +128,9 @@ const Navbar = () => {
                 <Link href="/contact">
                   <a
                     href="#"
-                    className="block py-2 pr-4 pl-3 text-gray-500  md:hover:text-yellow-500 md:p-0 "
+                    className="block py-2 pr-4 pl-3 text-gray-500  md:hover:text-yellow-500"
                   >
-                    CONTACT
+                    تماس با ما
                   </a>
                 </Link>
               </li>
@@ -143,20 +145,10 @@ const Navbar = () => {
                 <Link href="/">
                   <a
                     href="#"
-                    className="block py-2 pr-4 pl-3 text-yellow-600  md:hover:text-yellow-500 md:p-0 "
+                    className="block py-2 pr-4 pl-3 text-yellow-500  md:hover:text-yellow-500"
                     aria-current="page"
                   >
-                    HOME
-                  </a>
-                </Link>
-              </li>
-              <li>
-                <Link href="/aboutus">
-                  <a
-                    href="#"
-                    className="block py-2 pr-4 pl-3 text-gray-500   md:hover:text-yellow-500 md:p-0 "
-                  >
-                    ABOUT
+                    صفحه اصلی
                   </a>
                 </Link>
               </li>
@@ -164,9 +156,19 @@ const Navbar = () => {
                 <Link href="/services">
                   <a
                     href="#"
-                    className="block py-2 pr-4 pl-3 text-gray-500   md:hover:text-yellow-500 md:p-0 "
+                    className="block py-2 pr-4 pl-3 text-gray-500   md:hover:text-yellow-500"
                   >
-                    SERVICES
+                    نمونه کارها
+                  </a>
+                </Link>
+              </li>
+              <li>
+                <Link href="/aboutus">
+                  <a
+                    href="#"
+                    className="block py-2 pr-4 pl-3 text-gray-500   md:hover:text-yellow-500"
+                  >
+                    درباره ما
                   </a>
                 </Link>
               </li>
@@ -174,9 +176,9 @@ const Navbar = () => {
                 <Link href="/contact">
                   <a
                     href="#"
-                    className="block py-2 pr-4 pl-3 text-gray-500  md:hover:text-yellow-500 md:p-0 "
+                    className="block py-2 pr-4 pl-3 text-gray-500  md:hover:text-yellow-500"
                   >
-                    CONTACT
+                    تماس با ما
                   </a>
                 </Link>
               </li>

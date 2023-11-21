@@ -142,11 +142,11 @@ const footer = () => {
       </div>
 
       <div className="py-8 container mx-auto flex flex-row justify-between">
-        <p>Copyright 2023 Bitarch</p>
-        <div className="flex flex-row space-x-3">
-          <FaFacebook className="w-5 h-5 text-gray-500" />
-          <FaInstagram className="w-5 h-5 text-gray-500" />
-          <FaWhatsapp className="w-5 h-5 text-gray-500" />
+        <p className="mx-6 text-gray-500">کلیه حقوق مادی و معنوی این سایت متعلق به بیتا آرک است.</p>
+        <div className="mx-6 flex flex-row">
+          <FaFacebook className="w-5 h-5 mx-2 text-gray-500" />
+          <FaInstagram className="w-5 h-5 mx-2 text-gray-500" />
+          <FaWhatsapp className="w-5 h-5 mx-2 text-gray-500" />
         </div>
       </div>
     </div>
