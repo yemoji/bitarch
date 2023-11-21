@@ -11,7 +11,9 @@ import {
   FaFacebook,
   FaInstagram,
   FaWhatsapp,
+  FaMobile,
 } from "react-icons/fa";
+import MapSection from "../components/map";
 import Image from "next/image";
 // import Logo from "../public/logo.png";
 const footer = () => {
@@ -34,7 +36,8 @@ const footer = () => {
               <div className="space-y-2 pr-2 pr-2">
                 <p className="text-gray-500">شماره تماس</p>
                 <p className="text-gray-600 font-medium">
-                <a href="tel:+982126805093">۰۲۱-۲۶۸۰۵۰۹۳</a> - <a href="tel:+982126805504">۰۲۱-۲۶۸۰۵۵۰۴</a>
+                  <a href="tel:+982126805093">۰۲۱-۲۶۸۰۵۰۹۳</a> -{" "}
+                  <a href="tel:+982126805504">۰۲۱-۲۶۸۰۵۵۰۴</a>
                 </p>
               </div>
             </div>
@@ -111,12 +114,20 @@ const footer = () => {
                 <div className="flex flex-row items-center space-x-4">
                   <FaMapMarkerAlt className="w-6 h-6 text-gray-500  font-light" />
                   <p className="text-gray-500 pr-2">
-                  تهران ولنجک، خیابان ولنجک، ساختمان هوما
+                    تهران ولنجک، خیابان ولنجک، ساختمان هوما
                   </p>
                 </div>
                 <div className="flex flex-row items-center space-x-4">
                   <FaPhone className="w-6 h-6 text-gray-500 " />
-                  <p className="text-gray-500 pr-2"><a href="tel:+982126805093">۰۲۱-۲۶۸۰۵۰۹۳</a></p>
+                  <p className="text-gray-500 pr-2">
+                    <a href="tel:+982126805093">۰۲۱-۲۶۸۰۵۰۹۳</a>
+                  </p>
+                </div>
+                <div className="flex flex-row items-center space-x-4">
+                  <FaMobile className="w-6 h-6 text-gray-500 " />
+                  <p className="text-gray-500 pr-2">
+                    <a href="tel:+989120130533">۰۹۱۲۰۱۳۰۵۳۳</a>
+                  </p>
                 </div>
                 {/* <div className="flex flex-row items-center space-x-4">
                   <FaPhoneSquareAlt className="w-6 h-6 text-gray-500 " />
@@ -128,37 +139,34 @@ const footer = () => {
                 </div> */}
                 <div className="flex flex-row items-center space-x-4">
                   <FaCalendarWeek className="w-6 h-6 text-gray-500 " />
-                  <p className="text-gray-500 pr-2">شنبه تا پنج‌شنبه - از ساعت ۹:۰۰ الی ۱۶:۰۰</p>
+                  <p className="text-gray-500 pr-2">
+                    شنبه تا پنج‌شنبه - از ساعت ۹:۰۰ الی ۱۶:۰۰
+                  </p>
                 </div>
               </div>
             </div>
-            {/* <div className="col-span-1 space-y-8">
-              <div className="flex flex-col space-y-2">
-                <p className="text-gray-600 font-medium">SUBSCRIBE</p>
-                <p className="border-solid border border-amber-500  w-1/4 "></p>
-              </div>
-              <div className="flex flex-col space-y-4">
-                <input
-                  type="email"
-                  id="email"
-                  className="bg-gray-50 border border-gray-300 text-gray-900   focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 "
-                  placeholder="name@flowbite.com"
-                  required
+            <div className="col-span-2 space-y-8">
+              <div className="flex flex-col space-y-2"></div>
+              <div className="flex flex-col space-y-4" style={{height:'250px'}}>
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12943.012952923767!2d51.3999083!3d35.8059908!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f8e09cddd7a19d1%3A0x1312b1a160138807!2z2LPYp9iu2KrZhdin2YYg2YfZiNmF2Kc!5e0!3m2!1sen!2s!4v1696076821505!5m2!1sen!2s"
+                  width="100%"
+                  height="100%"
+                  style={{ border: 0 }}
+                  allowFullScreen=""
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
                 />
-                <button
-                  type="submit"
-                  className="text-white bg-amber-700 hover:bg-amber-800 focus:ring-4 focus:ring-blue-300 font-medium   w-full sm:w-auto px-5 py-2.5 text-center "
-                >
-                  Submit
-                </button>
               </div>
-            </div> */}
+            </div>
           </div>
         </div>
       </div>
 
       <div className="py-8 container mx-auto flex flex-row justify-between">
-        <p className="mx-6 text-gray-500">کلیه حقوق مادی و معنوی این سایت متعلق به بیتا آرک است.</p>
+        <p className="mx-6 text-gray-500">
+          کلیه حقوق مادی و معنوی این سایت متعلق به بیتا آرک است.
+        </p>
         <div className="mx-6 flex flex-row">
           <FaFacebook className="w-5 h-5 mx-2 text-gray-500" />
           <FaInstagram className="w-5 h-5 mx-2 text-gray-500" />
