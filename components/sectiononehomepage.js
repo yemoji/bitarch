@@ -9,11 +9,11 @@ const Contents = () => {
   return (
     <div className="container mx-auto py-24  space-y-20 w-full">
       <div className=" lg:flex lg:flex-row justify-center px-12">
-        <div style={{ border: '3px solid rgb(217, 119, 6)', marginLeft: '-20px', zIndex: '9', position: 'relative', width: '471px', height: '313px' }}>
-          <Image layout='fill' objectFit='cover' src="/6.jpg" alt="Picture of the author" />
+        <div>
+          <Image width='471px' height='313px' objectFit='cover' src="/6.jpg" alt="Picture of the author" />
         </div>
-        <div className="mt-12" style={{ border: '3px solid rgb(217, 119, 6)', position: 'relative', width: '471px', height: '313px' }}>
-          <Image layout='fill' objectFit='cover' src="/5.jpg" alt="Picture of the author" />
+        <div className="mt-12">
+          <Image width='471px' height='313px' objectFit='cover' src="/5.jpg" alt="Picture of the author" />
         </div>
       </div >
       <div className="px-12 flex flex-col justify-center items-center text-center space-y-6">
@@ -39,14 +39,14 @@ const Contents = () => {
           </button>
         </div>
         <div className="grid grid-cols-2 grid-rows-2 gap-2">
-          <div className="col-span-1 row-span-2"  style={{ border: '3px solid rgb(217, 119, 6)',position: 'relative', width: '40vw', height: '339px' }}>
-            <Image layout='fill' objectFit='cover' src="/7.jpg" alt="Picture of the author" />
+          <div className="col-span-1 row-span-2">
+            <Image width='326px' height='340px' objectFit='cover' src="/7.jpg" alt="Picture of the author" />
           </div>
-          <div className="col-span-1 row-span-1"  style={{ border: '3px solid rgb(217, 119, 6)',position: 'relative', width: '40vw', height: '165px' }}>
-            <Image layout='fill' objectFit='cover' src="/16.jpg" alt="Picture of the author" />
+          <div className="col-span-1 row-span-1">
+            <Image width='356px' height='165px' objectFit='cover' src="/16.jpg" alt="Picture of the author" />
           </div>
-          <div className="col-span-1 row-span-1"  style={{ border: '3px solid rgb(217, 119, 6)',position: 'relative', width: '40vw', height: '165px' }}>
-            <Image layout='fill' objectFit='cover' src="/15.jpg" alt="Picture of the author" />
+          <div className="col-span-1 row-span-1">
+            <Image width='356px' height='165px' objectFit='cover' src="/15.jpg" alt="Picture of the author" />
           </div>
         </div>
       </div>
