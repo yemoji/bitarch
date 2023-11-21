@@ -66,11 +66,19 @@ const footer = () => {
               <div className="flex flex-col space-y-1">
                 <div className="flex flex-row items-center space-x-2">
                   <FaAngleLeft className="w-8 h-8 text-gray-500  p-1" />
-                  <p className="text-gray-500">طراحی داخلی</p>
+                  <p className="text-gray-500">طراحی تجاری</p>
                 </div>
                 <div className="flex flex-row items-center space-x-2">
                   <FaAngleLeft className="w-8 h-8 text-gray-500  p-1" />
-                  <p className="text-gray-500">طراحی دکوراسیون</p>
+                  <p className="text-gray-500">طراحی مسکونی</p>
+                </div>
+                <div className="flex flex-row items-center space-x-2">
+                  <FaAngleLeft className="w-8 h-8 text-gray-500  p-1" />
+                  <p className="text-gray-500">طراحی اداری</p>
+                </div>
+                <div className="flex flex-row items-center space-x-2">
+                  <FaAngleLeft className="w-8 h-8 text-gray-500  p-1" />
+                  <p className="text-gray-500">طراحی ویلا</p>
                 </div>
                 <div className="flex flex-row items-center space-x-2">
                   <FaAngleLeft className="w-8 h-8 text-gray-500  p-1" />
@@ -78,7 +86,15 @@ const footer = () => {
                 </div>
                 <div className="flex flex-row items-center space-x-2">
                   <FaAngleLeft className="w-8 h-8 text-gray-500  p-1" />
-                  <p className="text-gray-500">طراحی نقشه</p>
+                  <p className="text-gray-500">اجرا</p>
+                </div>
+                <div className="flex flex-row items-center space-x-2">
+                  <FaAngleLeft className="w-8 h-8 text-gray-500  p-1" />
+                  <p className="text-gray-500">نظارت</p>
+                </div>
+                <div className="flex flex-row items-center space-x-2">
+                  <FaAngleLeft className="w-8 h-8 text-gray-500  p-1" />
+                  <p className="text-gray-500">ساخت</p>
                 </div>
                 {/* <div className="flex flex-row items-center space-x-2">
                   <FaAngleRight className="w-8 h-8 text-gray-500  p-1" />
