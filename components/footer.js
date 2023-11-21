@@ -2,7 +2,7 @@ import {
   FaPhoneAlt,
   FaMapMarkedAlt,
   FaRegClock,
-  FaAngleRight,
+  FaAngleLeft,
   FaMapMarkerAlt,
   FaPhone,
   FaPhoneSquareAlt,
@@ -65,19 +65,19 @@ const footer = () => {
               </div>
               <div className="flex flex-col space-y-1">
                 <div className="flex flex-row items-center space-x-2">
-                  <FaAngleRight className="w-8 h-8 text-gray-500  p-1" />
+                  <FaAngleLeft className="w-8 h-8 text-gray-500  p-1" />
                   <p className="text-gray-500">طراحی داخلی</p>
                 </div>
                 <div className="flex flex-row items-center space-x-2">
-                  <FaAngleRight className="w-8 h-8 text-gray-500  p-1" />
+                  <FaAngleLeft className="w-8 h-8 text-gray-500  p-1" />
                   <p className="text-gray-500">طراحی دکوراسیون</p>
                 </div>
                 <div className="flex flex-row items-center space-x-2">
-                  <FaAngleRight className="w-8 h-8 text-gray-500  p-1" />
+                  <FaAngleLeft className="w-8 h-8 text-gray-500  p-1" />
                   <p className="text-gray-500">طراحی نما</p>
                 </div>
                 <div className="flex flex-row items-center space-x-2">
-                  <FaAngleRight className="w-8 h-8 text-gray-500  p-1" />
+                  <FaAngleLeft className="w-8 h-8 text-gray-500  p-1" />
                   <p className="text-gray-500">طراحی نقشه</p>
                 </div>
                 {/* <div className="flex flex-row items-center space-x-2">

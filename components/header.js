@@ -47,7 +47,7 @@ const header = () => {
           <div
             className="h-screen bg-no-repeat bg-cover bg-center"
             style={{
-              backgroundImage: `url(/logo.png)`,
+              backgroundImage: `url(/2.jpg)`,
               backgroundSize: "contain"
             }}
           >
@@ -94,7 +94,7 @@ const header = () => {
           <div
             className="h-screen bg-no-repeat bg-cover bg-center"
             style={{
-              backgroundImage: `url(/2.jpg)`,
+              backgroundImage: `url(/20.jpg)`,
             }}
           >
             {/* <div className="h-screen bg-black bg-opacity-10 ">
